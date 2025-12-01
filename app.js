@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import { Player } from "./classes/player.js";
-import allMyRiddeles from "./reddeles/module.js";
+import allMyRiddeles from "./riddeles/module.js";
 import { Riddel } from "./classes/riddel.js";
 
 
