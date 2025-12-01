@@ -8,3 +8,4 @@ const player = new Player(readlineSync.question('What is your name? '));
 console.log(`Welcome ${player.name}!`);
 const allRiddeles = allMyRiddeles.map((riddel) => new Riddel(riddel.id, riddel.name, riddel.taskDescription, riddel.correctAnswer, riddel.choices));
 allRiddeles.forEach((riddel) => riddel.ask(readlineSync));
+console.log(`Thanks ${player.name} for playing!`);
