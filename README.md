@@ -1,1 +1,1 @@
-"# js-riddel-game" 
+# js-riddel-game
